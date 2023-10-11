@@ -1,0 +1,128 @@
+.main-btn{
+    display: inline-block;
+    padding: 15px;
+    border: 3px solid orange;
+    color: orange;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+.navbar-nav li{
+    font-size: 20px;
+    font-weight: 500;
+}
+.campus{
+    background-color: #F44336;
+    color: antiquewhite;
+}
+.texte h5{
+    color: #F44336;
+    font-size: 20px;
+}
+ .ligne{
+    width: 90px;
+    height: 3px;
+    background-color: orange;
+}
+.texte .para p{
+    font-size: 18px;
+}
+.texte .carte img{
+    width: 450px;
+}
+.part3 img{
+        width: 100%;
+}
+.range h3{
+    color: #F44336;
+    font-size: 30px;
+}
+.cinq{
+    background-color: #F44336;
+    color: #fff;
+}
+.carte1{
+    width: 250px;
+    border: 1px solid #fff;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.carte2{
+    width: 250px;
+    border: 1px solid rgba(12, 199, 181, 0.9);
+    height: 200px;
+    border-radius: 15px;
+}
+
+.carte3{
+    width: 250px;
+    border: 1px solid  #FF9800;
+    height: 200px;
+    border-radius: 15px;
+}
+.carte4{
+    width: 250px;
+    border: 1px solid rgba(12, 199, 181, 0.9);
+    height: 200px;
+    border-radius: 15px;
+}
+.cinq h6{
+    font-size: 20px;
+    font-weight: 700;
+}
+footer{
+    background-color: #F44336;
+}
+.footer{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer ul li{
+    list-style: none;
+}
+.icone ul li{
+    list-style: none;
+    font-size: 20px;
+}
+footer p{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+@media screen and (max-width:750px) {
+    .navbar-collapse{
+        display: flex;
+        justify-content: center;
+    }
+    .part3 img{
+        width: 100%;
+}
+.texte .carte img{
+    width: 100%;
+}
+.quatre{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+.quatre img{
+    width: 100%;
+}
+.coach{
+    text-align: center;
+}
+.ligne{
+    display: none;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+}

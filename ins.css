@@ -1,0 +1,43 @@
+.ima img{
+  width: 100%;
+  height: 100vh;
+}
+.formu{
+    border: 3px solid #F44336;
+   padding: 15px;
+   border-radius: 15px;
+}
+.personnel h2{
+    font-size: 50px;
+    color: #F44336;
+}
+.choix p{
+    color: #F44336;
+    font-size: 15px;
+    font-weight: bold;
+}
+.choix{
+    border: 3px solid #F44336;
+    padding: 15px;
+    border-radius: 15px;
+}
+.button button a{
+    text-decoration: none;
+    color: white;
+}
+.button button{
+    width: 100%;
+    background-color: #F44336;
+    border-radius: 15px;
+    border: 1px solid #F44336;
+    padding: 5px;
+}
+@media screen and (max-width:700px) {
+    .ins{
+        text-align: center;
+        width: 100%;
+    }
+    .ima img{
+        display: none;
+      }
+}
